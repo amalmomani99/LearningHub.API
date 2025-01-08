@@ -14,6 +14,7 @@ namespace LearningHub.API.Controllers
         public CourseController(ICourseService courseService)
             {
             this.courseService = courseService;
+
             }
         [HttpGet]
         public List<Course> GetAllCourse()
